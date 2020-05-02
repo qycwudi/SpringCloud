@@ -1,0 +1,23 @@
+server:
+  port: 8003
+spring:
+  application:
+    name: Hystrex
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/qycs
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+  jpa:
+    show-sql: true
+#mybatis:
+#  mapper-locations:
+#  config-location:
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka  #集群配置
+

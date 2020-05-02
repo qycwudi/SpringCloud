@@ -20,3 +20,8 @@ ribbon:
 logging:
   level:
     com.qyc.service.Payservice: debug
+
+#开启feign的hystrix
+feign:
+  hystrix:
+    enabled: true

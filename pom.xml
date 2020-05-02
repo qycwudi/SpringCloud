@@ -14,6 +14,9 @@
         <module>eureka7001</module>
         <module>eureka7002</module>
         <module>pay8002</module>
+        <module>Hystrix8001</module>
+        <module>Hystrix8002</module>
+        <module>deshboard9001</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -33,7 +36,9 @@
     </properties>
     <!-- 子模块继承之后，提供作用：锁定版本+子modlue不用写groupId和version  -->
     <dependencyManagement>
+
         <dependencies>
+
             <!--spring boot 2.2.2-->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
