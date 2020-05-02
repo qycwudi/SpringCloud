@@ -1,0 +1,22 @@
+server:
+  port: 81
+spring:
+  application:
+    name: order-81
+
+eureka:
+  client:
+    register-with-eureka: true  #注册
+    fetch-registry: true  #检测
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+
+#ribbon 超时控制   建立时间  读取资源所需时间
+ribbon:
+  ReadTimeout: 5000
+  ConnectTimeout: 5000
+
+#日志增强
+logging:
+  level:
+    com.qyc.service.Payservice: debug

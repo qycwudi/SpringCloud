@@ -1,0 +1,6 @@
+# Project exclude paths
+/eureka7001/target/
+/eureka7002/target/
+/order80/target/
+/pay8001/target/
+/pay8002/target/

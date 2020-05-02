@@ -1,0 +1,26 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: pay-service
+  datasource:
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/qycs
+    type: com.alibaba.druid.pool.DruidDataSource
+  jpa:
+    show-sql: true
+
+#eureka
+eureka:
+  client:
+    register-with-eureka: true  #注册
+    fetch-registry: true  #抓取已有注册信息
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka  #集群配置
+
+
+mybatis:
+  config-location: classpath:mybatis/mybatis.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
