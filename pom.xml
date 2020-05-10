@@ -17,6 +17,13 @@
         <module>Hystrix8001</module>
         <module>Hystrix8002</module>
         <module>deshboard9001</module>
+        <module>getway9527</module>
+        <module>config</module>
+        <module>config3355</module>
+        <module>config3366</module>
+        <module>stream_cfg</module>
+        <module>stream8802</module>
+        <module>stream8803</module>
     </modules>
 
     <packaging>pom</packaging>

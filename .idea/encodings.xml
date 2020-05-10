@@ -5,17 +5,31 @@
     <file url="file://$PROJECT_DIR$/Hystrix8001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Hystrix8002/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Hystrix8002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config3355/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config3355/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config3366/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config3366/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/deshboard9001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/deshboard9001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka7001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka7001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka7002/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka7002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/getway9527/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/getway9527/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order80/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order80/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pay8001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pay8001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pay8002/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pay8002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream8802/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream8802/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream8803/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream8803/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream_cfg/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream_cfg/src/main/resources" charset="UTF-8" />
   </component>
 </project>

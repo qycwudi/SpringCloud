@@ -15,6 +15,8 @@ spring:
 #  mapper-locations:
 #  config-location:
 eureka:
+  instance:
+    hostname: hystrex8003
   client:
     register-with-eureka: true
     fetch-registry: true

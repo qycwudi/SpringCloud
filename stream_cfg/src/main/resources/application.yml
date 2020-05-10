@@ -1,0 +1,53 @@
+server:
+  port: 8801
+spring:
+  application:
+    name: center8801   #配置中心
+  cloud:
+    stream:
+      binders:
+        defaultRabbit:
+          type: rabbit
+          environment:
+            spring:
+              rabbitmq:
+                host: 192.168.32.128
+                port: 5672
+                username: guest
+                password: guest
+      bindings:
+        output:
+          default-binder: defaultRabbit
+          destination: studyExchange
+          content-type: application/json
+
+
+  #    config:
+  #      server:
+  #        git:
+  #          uri: https://github.com/qycwudi/springcloud_Config.git
+  #          search-paths:
+  #            - springcloud_Config
+  #      label: master
+  #rabbitmq
+#  rabbitmq:
+#    host: localhost
+#    port: 5672
+#    username: guest
+#    password: guest
+
+#暴露bus刷新配置端点
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "bus-refresh"
+eureka:
+  client:
+    register-with-eureka: true  #注册
+    fetch-registry: true  #检测
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+  instance:
+    instance-id: send-8801.com
+    prefer-ip-address: true

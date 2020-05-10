@@ -6,14 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka7001" />
-        <module name="order80" />
-        <module name="Hystrix8001" />
-        <module name="deshboard9001" />
         <module name="pay8002" />
-        <module name="Hystrix8002" />
         <module name="pay8001" />
+        <module name="order80" />
+        <module name="getway9527" />
+        <module name="config3355" />
         <module name="eureka7002" />
+        <module name="eureka7001" />
+        <module name="config3366" />
+        <module name="deshboard9001" />
+        <module name="Hystrix8002" />
+        <module name="Hystrix8001" />
+        <module name="stream8803" />
+        <module name="stream8802" />
+        <module name="config" />
+        <module name="stream_cfg" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
